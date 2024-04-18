@@ -1,1 +1,7 @@
-spring.application.name=workshop_authorization_server
+server:
+  port: ${server_port:8086}
+
+spring:
+  application:
+    name: "workshop_authorization_server"
+
