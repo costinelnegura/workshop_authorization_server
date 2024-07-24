@@ -205,8 +205,8 @@ public class SecurityConfig {
      * ImmutableJWKSet: The JWKSet is wrapped in an ImmutableJWKSet object. This makes the set of keys immutable,
      * meaning it cannot be changed after creation. This is important for security, ensuring that the keys cannot be tampered with.
      *
-     * Return JWKSource: Finally, the method returns the ImmutableJWKSet as a JWKSource<SecurityContext>. T
-     * his JWKSource can then be used by other parts of the Spring Security framework, particularly the OAuth2 authorization server,
+     * Return JWKSource: Finally, the method returns the ImmutableJWKSet as a JWKSource<SecurityContext>.
+     * This JWKSource can then be used by other parts of the Spring Security framework, particularly the OAuth2 authorization server,
      * to sign JWTs or to provide public keys to clients for verifying JWT signatures.
      *
      * In summary, the jwkSource() method sets up the cryptographic keys your authorization server will use for signing JWTs,
